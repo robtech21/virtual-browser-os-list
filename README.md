@@ -13,7 +13,7 @@ I will accept pull requests for those who want to add more to this README.
 * [v86](#v86)
 * [jslinux list](#jslinux-list)
   * [jslinux](#jslinux)
-  * 
+  * [jslinux-deobfuscated](#jslinux-deobfuscated)
 
 ## Categorization
 
@@ -58,5 +58,22 @@ What it runs: See the [v86 README](https://github.com/copy/v86/blob/master/Readm
 This is a list of jslinux (and jslinux-based emulators)
 
 #### jslinux
+
+Name: jslinux
+
+Author: Fabrice Bellard ([website](https://bellard.org))
+
+Link(s): [Website](https://bellard.org/jslinux)
+
+Architecture(s): x86, riscv64
+
+What it runs: 
+ * Alpine Linux 3.12.0
+ * Windows 2000
+ * FreeDOS
+ * Buildroot
+ * Fedora 33
+
+#### jslinux-deobfuscated
 
 (to be added)
