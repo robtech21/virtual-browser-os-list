@@ -69,21 +69,21 @@ Architecture(s): x86, riscv64
 
 What it runs: 
  * **Alpine Linux 3.12.0**
-  * Architecture: x86
-  * Networking: yes
-  * UI Options:
-   * Terminal
-   * X Window
+   * Architecture: x86
+   * Networking: yes
+   * UI Options:
+     * Terminal
+     * X Window
  * **Windows 2000**
    * Architecture: x86
    * Networking: yes
     * UI Options:
       * Graphical
  * **FreeDOS**
-  * Architecture: x86
-  * Networking: undetermined
-  * UI Options:
-    * VGA Text
+   * Architecture: x86
+   * Networking: undetermined
+   * UI Options:
+     * VGA Text
  * **Buildroot**
    * Archetecture: riscv64
    * Networking: yes
