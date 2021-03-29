@@ -63,11 +63,9 @@ Name: jslinux
 
 Author: Fabrice Bellard ([website](https://bellard.org))
 
-Link(s): [Website with Demos](https://bellard.org/jslinux)
+Link(s): [Website with Demos](https://bellard.org/jslinux), [Technical Notes](https://bellard.org/jslinux/tech.html)
 
 Architecture(s): x86, riscv64
-
-[Technical Notes](https://bellard.org/jslinux/tech.html)
 
 What it runs: 
  * **Alpine Linux 3.12.0**
@@ -77,27 +75,27 @@ What it runs:
    * Terminal
    * X Window
  * **Windows 2000**
-  * Architecture: x86
+   * Architecture: x86
    * Networking: yes
-   * UI Options:
-    * Graphical
+    * UI Options:
+      * Graphical
  * **FreeDOS**
   * Architecture: x86
   * Networking: undetermined
   * UI Options:
-   * VGA Text
+    * VGA Text
  * **Buildroot**
-  * Archetecture: riscv64
-  * Networking: yes
-  * UI Options:
-   * Terminal
-   * X Window
+   * Archetecture: riscv64
+   * Networking: yes
+   * UI Options:
+     * Terminal
+     * X Window
  * **Fedora 33**
-  * Archetecture: riscv64
-  * Networking: yes
-  * UI options:
-   * Terminal
-   * X Window
+   * Archetecture: riscv64
+   * Networking: yes
+   * UI options:
+     * Terminal
+     * X Window
 
 #### jslinux-deobfuscated
 
