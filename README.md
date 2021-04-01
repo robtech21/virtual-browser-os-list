@@ -125,7 +125,7 @@ Author: riscv ([GitHub](github.com/riscv))
 
 Link(s): [GitHub](https://github.com/riscv/riscv-angel), [Demo](https://riscv.org/software-tools/riscv-angel/) (demo link is broken)
 
-Architecture(s): LatticeMico32 (32-bit RISC)
+Architecture(s): riscv
 
 ### jslm32
 
