@@ -14,6 +14,9 @@ I will accept pull requests for those who want to add more to this README.
 * [jslinux list](#jslinux-list)
   * [jslinux](#jslinux)
   * [jslinux-deobfuscated](#jslinux-deobfuscated)
+* [Angel](#angel)
+* [jslm32](#jslm32)
+* [jor1k](#jor1k)
 
 ## Categorization
 
@@ -91,7 +94,7 @@ What it runs:
      * Terminal
      * X Window
  * **Fedora 33**
-   * Archetecture: riscv64
+   * Archetectures: riscv64, riscv32 (riscv32 is unmaintained)
    * Networking: yes
    * UI options:
      * Terminal
@@ -99,4 +102,34 @@ What it runs:
 
 #### jslinux-deobfuscated
 
+Name: jslinux-deobfuscated
+
+Author: levskaya ([GitHub](https://github.com/levskaya))
+
+Link(s): [GitHub](https://github.com/levskaya/jslinux-deobfuscated)
+
+Architecture(s): x86
+
+### Angel
+
 (to be added)
+
+### jslm32
+
+Name: jslm32
+
+Author: ubercomp ([GitHub](https://github.com/ubercomp),[Website](https://www.ubercomp.com))
+
+Link(s): [GitHub](https://github.com/ubercomp/jslm32), [Demo](https://www.ubercomp.com/jslm32/src/)
+
+Architecture(s): LatticeMico32 (32-bit RISC)
+
+### jor1k
+
+Name: jor1k
+
+Author: s-macke ([GitHub](https://github.com/s-macke/))
+
+Link(s): [GitHub](https://github.com/s-macke/jor1k), [Demo](https://s-macke.github.com/jor1k/demos/main.html)
+
+Architecture(s): OpenRISC 1000
