@@ -10,13 +10,14 @@ I will accept pull requests for those who want to add more to this README.
 
 * [Categorization](#categorization)
 * [Main Section](#main-section)
-* [v86](#v86)
-* [jslinux list](#jslinux-list)
-  * [jslinux](#jslinux)
-  * [jslinux-deobfuscated](#jslinux-deobfuscated)
-* [Angel](#angel)
-* [jslm32](#jslm32)
-* [jor1k](#jor1k)
+  * [v86](#v86)
+  * [jslinux list](#jslinux-list)
+    * [jslinux](#jslinux)
+    * [jslinux-deobfuscated](#jslinux-deobfuscated)
+  * [Angel](#angel)
+  * [jslm32](#jslm32)
+  * [jor1k](#jor1k)
+  * [jemul8](#jemul8)
 
 ## Categorization
 
@@ -58,7 +59,7 @@ What it runs: See the [v86 README](https://github.com/copy/v86/blob/master/Readm
 
 ### jslinux list
 
-This is a list of jslinux (and jslinux-based emulators)
+This is a list of jslinux (and jslinux-based) emulators.
 
 #### jslinux
 
@@ -68,7 +69,7 @@ Author: Fabrice Bellard ([website](https://bellard.org))
 
 Link(s): [Website with Demos](https://bellard.org/jslinux), [Technical Notes](https://bellard.org/jslinux/tech.html)
 
-Architecture(s): x86, riscv64
+Architecture(s): x86, riscv64, riscv32
 
 What it runs: 
  * **Alpine Linux 3.12.0**
@@ -88,17 +89,23 @@ What it runs:
    * UI Options:
      * VGA Text
  * **Buildroot**
-   * Archetecture: riscv64
+   * Archetecture: riscv64, riscv32 (riscv32 is unmaintained)
    * Networking: yes
    * UI Options:
      * Terminal
      * X Window
  * **Fedora 33**
-   * Archetectures: riscv64, riscv32 (riscv32 is unmaintained)
+   * Archetectures: riscv64
    * Networking: yes
    * UI options:
      * Terminal
      * X Window
+
+riscv32 Buildroot links:
+
+ (All riscv32 options are unmaintained according to the [technical notes](https://bellard.org/jslinux/tech.html) page) 
+ * [console](https://bellard.org/jslinux/vm.html?cpu=riscv32&url=https://bellard.org/jslinux/buildroot-riscv32.cfg)
+ * [x window](https://bellard.org/jslinux/vm.html?cpu=riscv32&url=https://bellard.org/jslinux/buildroot-riscv32-xwin.cfg&graphic=1)
 
 #### jslinux-deobfuscated
 
@@ -112,7 +119,13 @@ Architecture(s): x86
 
 ### Angel
 
-(to be added)
+Name: Angel
+
+Author: riscv ([GitHub](github.com/riscv))
+
+Link(s): [GitHub](https://github.com/riscv/riscv-angel), [Demo](https://riscv.org/software-tools/riscv-angel/) (demo link is broken)
+
+Architecture(s): LatticeMico32 (32-bit RISC)
 
 ### jslm32
 
@@ -133,3 +146,13 @@ Author: s-macke ([GitHub](https://github.com/s-macke/))
 Link(s): [GitHub](https://github.com/s-macke/jor1k), [Demo](https://s-macke.github.com/jor1k/demos/main.html)
 
 Architecture(s): OpenRISC 1000
+
+### jemul8
+
+Name: jemul8
+
+Author: asmblah ([GitHub](https://github.com/asmblah))
+
+Link(s): [GitHub](https://github.com/asmblah/jemul8), [Demo](http://jemul8.com)
+
+Architecture(s): x86
